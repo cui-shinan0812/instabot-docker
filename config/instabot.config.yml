@@ -30,7 +30,7 @@ user_max_follow: 2000
 unfollow_per_run: 5
 unlike_per_run: 0
 time_till_unlike: 604800
-comments_per_day: 0
+comments_per_day: 2880
 comment_list: 
   - 
     - this
@@ -66,6 +66,8 @@ comment_list:
     - "..."
     - "!"
     - "!!!"
+  -
+    - "visit https://glcass-beauty.com"
 tag_list: 
   - landscape
   - cityscape

@@ -5,10 +5,10 @@ FROM alpine/git AS build-env
 WORKDIR /app
 
 # Checkout latest instabot.py source code
-RUN git clone https://github.com/instabot-py/instabot.py.git build
+RUN git clone https://github.com/cui-shinan0812/instabot-docker.git build
 
 # Checkout instabot version 0.7.1
-RUN cd build && git pull && git checkout 40b7840d969d06b4abc2f182f2c8386f37423639
+RUN cd build && git pull && git checkout master
 RUN rm -rf build/.git
 
 # Build runtime image
@@ -19,7 +19,7 @@ WORKDIR /app
 COPY --from=build-env /app/build ./instabot.py
 
 # This is the magic
-RUN python -m pip install ./instabot.py
+RUN python -m pip install instabot.py
 COPY ./start-instabot.sh /app/start-instabot.sh
 RUN chmod a+x /app/start-instabot.sh
 
