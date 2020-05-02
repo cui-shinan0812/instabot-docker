@@ -21,7 +21,7 @@ end_at_h: 23
 end_at_m: 59
 like_per_run: 50
 like_followers_per_run: 20
-media_max_like: 1000
+media_max_like: 100
 media_min_like: 10
 follow_per_run: 5
 follow_time: 604800
@@ -30,7 +30,7 @@ user_max_follow: 2000
 unfollow_per_run: 5
 unlike_per_run: 0
 time_till_unlike: 604800
-comments_per_day: 2880
+comments_per_day: 144
 comment_list: 
   - 
     - this
@@ -43,8 +43,11 @@ comment_list:
     - shot
     - snapshot
     - capture
+    - beauty
+    - image
   - 
     - is
+    - are
     - looks
     - "is really"
   - 
@@ -67,7 +70,7 @@ comment_list:
     - "!"
     - "!!!"
   -
-    - "visit https://glcass-beauty.com"
+    - "visit https://glcass-beauty.com for more beauty!!"
 tag_list: 
   - landscape
   - cityscape
@@ -86,17 +89,31 @@ tag_list:
   - candid
   - portraiture
   - streetfood
+  - amg
+  - girl
+  - sexy
+  - me
+  - instagood
+  - photoofitheday
+  - fashion
+  - beautiful
+  - happy
+  - cute
+  - like4like
+  - followme
+  - selife
+  - covid19
+  - art
+  - nature
+  - smile
 keywords:
   - photographer
   - videographer
   - filmmaker
   - traveler
 tag_blacklist: 
-  - nude
-  - sexy
   - lgbt
-  - gay
-max_like_for_one_tag: 10
+max_like_for_one_tag: 20
 unfollow_break_min: 15
 unfollow_break_max: 30
 unfollow_not_following: true
